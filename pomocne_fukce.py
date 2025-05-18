@@ -109,16 +109,14 @@ def validuj_male_cislo(cislo):
     :return: Platné číslo v rozmezí 1-10 nebo výchozí hodnota 1.
     """
 
-    while True:
-        vstup = cislo.strip()
-        try:
-            vstup = int(vstup)
-            if  0 < vstup <= 10:
-                return vstup
-            else: 
-                vstup = 1
-                return vstup
-        except ValueError:
-            vstup = 1
+    vstup = cislo.strip()
+    try:
+        vstup = int(vstup)
+        if  0 < vstup <= 10:
             return vstup
-         
+        vstup = 1
+        return vstup
+    except ValueError:
+        vstup = 1
+        return vstup
+        

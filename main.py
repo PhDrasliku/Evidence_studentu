@@ -69,5 +69,5 @@ while pokracovat != "a":
         potv = input("Aplikace bude ukončena a data uložena. Přejete si pokračovat? [A/N]: ")
         if potv.strip().lower() == "a":
             spravce.uloz_data()
-            break
+            pokracovat = "a"
     vycisti_obrazovku()

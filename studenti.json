@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "jmeno": "Pepek",
+    "prijmeni": "Černý",
+    "vek": 21,
+    "telefon": "858 388 459",
+    "id": 1
+  },
+  {
+    "jmeno": "Petr",
+    "prijmeni": "Černý",
+    "vek": 25,
+    "telefon": "343 936 983",
+    "id": 2
+  },
+  {
+    "jmeno": "Martin",
+    "prijmeni": "Čech",
+    "vek": 34,
+    "telefon": "075 364 018",
+    "id": 3
+  },
+  {
+    "jmeno": "Martin",
+    "prijmeni": "Černý",
+    "vek": 19,
+    "telefon": "447 347 037",
+    "id": 4
+  }
+]
